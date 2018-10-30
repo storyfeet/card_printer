@@ -1,43 +1,43 @@
 <?xml version="1.0" ?>
 <svg width="2480" height="3508" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
   <g transform="translate(124,175.4) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(570.4,175.4) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1016.8,175.4) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1463.1999999999998,175.4) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1909.6,175.4) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(124,806.8399999999999) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(570.4,806.8399999999999) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1016.8,806.8399999999999) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1463.1999999999998,806.8399999999999) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
   <g transform="translate(1909.6,806.8399999999999) " >
-    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;" />
+    <rect x="0" y="0" width="446.4" height="631.4399999999999" style="stroke-width:5;stroke:black;fill:none;" />
     <image x="0" y="0" width="446.4" height="631.4399999999999" xlink:href="pic2" />
   </g>
 </svg>
