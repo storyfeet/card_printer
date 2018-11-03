@@ -1,7 +1,7 @@
-extern crate lazyf;
+extern crate lazy_conf;
 extern crate mksvg;
 
-use lazyf::{SGetter,Cfg};
+use lazy_conf::{config};
 use mksvg::{page,Card,SvgWrite,Args,SvgArg};
 
 #[derive(Clone,Debug)]
@@ -26,21 +26,22 @@ impl Card<f64> for ImgCard{
 }
 
 
-
-
 fn main() {
-    let cfg = Cfg::load_first("-c",&["conf.lz"]);
+    let mut cfg = config("-c",&["conf.lz"]);
 
-    let w:usize= cfg.get_t(("-w","width")).unwrap_or(4);
-    let h:usize= cfg.get_t(("-h","height")).unwrap_or(4);
+    let w:usize = cfg.grab().fg("-w").cf("width").t().unwrap_or(4);
+    let h:usize = cfg.grab().fg("-h").cf("height").t().unwrap_or(4);
 
-    let imgs = cfg.get_s(("-imgs","images")).unwrap();//no image no svg
-    let counts = cfg.get_s(("-nn","img_count")).unwrap_or("1".to_string());
-    let out_base = cfg.get_s(("-out","out")).unwrap_or("out/cards".to_string());
+    let imgs = cfg.grab().fg("-imgs").cf("images").s().unwrap();//no img no svg
+    let counts = cfg.grab().fg("-nn").cf("img_count")
+                    .s().unwrap_or("1".to_string());
 
-    let do_pdf = cfg.get_s(("-pdf","pdf"));
+    let out_base = cfg.grab().fg("-out").cf("out")
+                    .s().unwrap_or("out/cards".to_string());
 
-    let landscape = cfg.get_s(("-landscape","landscape")).is_some();
+    let do_pdf = cfg.grab().fg("-pdf").cf("pdf").s();
+
+    let landscape = cfg.grab().fg("-landscape").cf("landscape").is_present();
 
 
     let counts:Vec<i32> = counts.split(':').map(|s|s.parse().unwrap_or(1)).collect();

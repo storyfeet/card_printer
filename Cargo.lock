@@ -7,7 +7,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "card_printer"
 version = "0.1.0"
 dependencies = [
- "lazyf 0.1.4",
+ "lazy_conf 0.1.0",
  "mksvg 0.1.1",
 ]
 
@@ -26,8 +26,8 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "lazyf"
-version = "0.1.4"
+name = "lazy_conf"
+version = "0.1.0"
 
 [[package]]
 name = "libc"
